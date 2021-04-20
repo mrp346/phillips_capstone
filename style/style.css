@@ -333,11 +333,11 @@ h1.logo{
 }
 
 .btn a {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
-  background: darkblue;
+   /* background: darkblue; */
   padding: 10px;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   margin: 10px ;
 }
 
@@ -455,6 +455,11 @@ input:focus, textarea:focus{
   z-index: 20 ;
 }
 */
+
+.copyright{
+text-decoration: #fff;
+}
+
 footer {
 	width:100%;
 	padding: 100px 0;
