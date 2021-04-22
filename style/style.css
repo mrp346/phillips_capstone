@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,300&display=swap'); 
 
 :root{
    --background: rgba(57, 128, 130, 1);
@@ -21,10 +22,14 @@ body{
 }
 
 h1{
+  font-family: 'Fira Sans', sans-serif; 
   padding: 20px;
   font-size: 3em;
 }
 
+h2{
+  color: white; 
+}
 
 
 .h1_subhead{
@@ -144,6 +149,32 @@ nav a:hover{
 
 /*  End Nav bar */
 
+.logo-type{
+ font-size: 2em;
+}
+
+
+.white-text{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white; 
+}
+
+.hero-overlay{
+  padding: 20px 20px 20px 20px;
+	position: absolute;
+	text-align: center; 
+	top: 238px;
+	width: 940px;
+	z-index: 100;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background: rgba(43, 48, 43, 0.7);
+	overflow: hidden;
+	border-radius: 20px;
+}
+
 .hero {
  background-image: url("../images/nea_hero@2x.png");  
   width:100%;
@@ -255,7 +286,7 @@ padding: 20px 20px 9px;
 width: 30%;
 }
 
-section {
+section { 
 padding-top: 0px 20px 10px 10px;
 background-color:#48515C ;
 text-align: center ;
@@ -283,6 +314,16 @@ text-align: center ;
   text-decoration: none;
 }
 
+.mission{
+  height:  70vh;
+}
+
+.mission-text{
+  color: white;
+  padding: 20px 20px 50px 50px;
+  text-align: center;
+  font-size: 2em;
+}
 
 .news{
 background-color: #0F3C5D ;
@@ -325,7 +366,15 @@ h1.logo{
 }
 
 /*  essential code  */
- 
+
+.btn-mission {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif; 
+  display: flex;
+  justify-content: center;
+}
+
+
 .btn {
   font-family: 'Oswald', sans-serif; 
   display: flex;
