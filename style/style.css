@@ -437,6 +437,73 @@ h1.logo{
     float:left;
   }
 
+/* Parallax */
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 800px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: !important;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3529133/pano_one.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3529133/pano_two.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3529133/pano_three.jpg");
+}
+
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+  
+
 /* End Gallery */
 
 /* form */
@@ -525,5 +592,5 @@ footer {
   color: "blue"
 }
 
-}
+
 
